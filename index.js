@@ -3,7 +3,7 @@ const sha = require('crypto-js/sha256');
 
 function mineSuccess(hash) {
     const testChar = 30;
-    return ( hash && hash.indexOf('12345678') !== -1 );
+    return ( hash && hash.indexOf('abcd') !== -1 );
 }
 
 function getRandomNumber(){
